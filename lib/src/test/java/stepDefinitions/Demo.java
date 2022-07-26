@@ -1,11 +1,12 @@
-package test;
+package stepDefinitions;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Demo {
